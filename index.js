@@ -20,7 +20,7 @@ xhr.onload = function () {
       //  console.log(this.responseText);
       //  console.log(json);
     let articles = json.results;
-    console.log(articles);
+    // console.log(articles);
     let newsHTML=``;
     articles.forEach(function(element,index){
 
